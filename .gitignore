@@ -26,7 +26,7 @@ __pycache__/
 # *.ipynb
 
 # Ignore image files (optional if not needed in the repo)
-*.png
+# *.png
 
 # Ignore virtual environments
 env/
