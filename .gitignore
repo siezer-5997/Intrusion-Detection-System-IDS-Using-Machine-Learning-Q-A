@@ -1,0 +1,37 @@
+# Ignore environment and sensitive files
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Gradio flagged files
+.gradio/
+
+# Ignore data files (optional if you don't want to track raw data in the repo)
+# data/
+
+# Ignore model files
+*.pkl
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.csv
+
+# Ignore notebook checkpoints (Jupyter)
+.ipynb_checkpoints/
+
+# Ignore specific notebook or binary files if needed
+# *.ipynb
+
+# Ignore image files (optional if not needed in the repo)
+*.png
+
+# Ignore virtual environments
+env/
+venv/
+
+# Exclude system-specific metadata (e.g., macOS or Windows)
+.DS_Store
+Thumbs.db
